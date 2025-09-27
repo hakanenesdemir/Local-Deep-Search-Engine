@@ -59,7 +59,7 @@ with open("1.1_file_IO/dosyalar/belgeler/yeni.txt", "r", encoding="utf-8") as f:
     print(f.tell())
     print(f.readline())   # tekrar 1. satır okundu
     print(f.tell())
-    f.seek(5, 1)          # baştan itibaren 5 byte ilerle
+    f.seek(5, 0)          # baştan itibaren 5 byte ilerle
     print(f.tell())
 
-    print(f.readline()) 
+    print(f.readline())# 5 byte ilerledikten sonra kalan satırı yazdır
