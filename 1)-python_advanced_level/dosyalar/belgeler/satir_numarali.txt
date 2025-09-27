@@ -1,0 +1,4 @@
+1 - Merhaba 0
+2 - Ali veli
+3 - Denemek için üçüncü satır
+4 - dördüncü satır
