@@ -6,7 +6,7 @@
 # okuyup yazabilmek için bu kodlamayı kullanmalısınız.
 
 # r-> read: Dosyayı sadece okuma (read) amaçlı açtığımızı belirtir.
-with open("dosyalar/belgeler/ornek.txt","r",encoding="utf-8") as f:
+with open("1.1_file_IO/dosyalar/belgeler/ornek.txt","r",encoding="utf-8") as f:
     icerik=f.read()
     print(icerik)
 
@@ -17,7 +17,7 @@ with open("dosyalar/belgeler/ornek.txt","r",encoding="utf-8") as f:
     #print(icerik)
 
 # "r+" : Dosyayı hem okuma hem de yazma yetkisiyle çağırmak
-with open("dosyalar/belgeler/ornek.txt","r+",encoding="utf-8") as f:
+with open("1.1_file_IO/dosyalar/belgeler/ornek.txt","r+",encoding="utf-8") as f:
     ilk_satir = f.readline().strip()
     print(f"Okunan ilk satır: {ilk_satir}")
 
@@ -44,7 +44,7 @@ with open("dosyalar/belgeler/ornek.txt","r+",encoding="utf-8") as f:
 # 'night_sky.jpg' adlı ikili dosyayı okuma
 #
 print("resimler")
-with open("dosyalar/resimler/night_sky.jpg", "rb") as f:
+with open("1.1_file_IO/dosyalar/resimler/night_sky.jpg", "rb") as f:
     bayt_veri = f.read()
     #print(bayt_veri)
     print(bayt_veri[:10])

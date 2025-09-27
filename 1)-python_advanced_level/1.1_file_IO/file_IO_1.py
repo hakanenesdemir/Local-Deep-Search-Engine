@@ -76,7 +76,7 @@
 
 #Örnek:
 # file open
-f= open("dosyalar/belgeler/ornek.txt","r",encoding="utf-8")
+f= open("1.1_file_IO/dosyalar/belgeler/ornek.txt","r",encoding="utf-8")
 
 #file read
 icerik=f.read()
