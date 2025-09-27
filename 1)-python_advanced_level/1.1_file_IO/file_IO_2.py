@@ -51,3 +51,15 @@ with open("1.1_file_IO/dosyalar/resimler/night_sky.jpg", "rb") as f:
     # bayt_veri artık bir <class 'bytes'> nesnesidir.
     # print(bayt_veri[:10])  # -> Çıktı: b'\xff\xd8\xff\xe0\x00\x10JFIF...'
     # byte dizisi olduğu için başında b olması şarttır.
+
+with open("1.1_file_IO/dosyalar/belgeler/yeni.txt", "r", encoding="utf-8") as f:
+    print(f.tell())
+    print(f.readline())   # 1. satır okundu
+    f.seek(0)             # başa dön
+    print(f.tell())
+    print(f.readline())   # tekrar 1. satır okundu
+    print(f.tell())
+    f.seek(5, 1)          # baştan itibaren 5 byte ilerle
+    print(f.tell())
+
+    print(f.readline()) 

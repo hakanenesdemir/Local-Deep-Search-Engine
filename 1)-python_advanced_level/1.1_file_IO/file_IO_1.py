@@ -72,6 +72,13 @@
 #     for satir in satirlar:
 #         print(satir.strip())  # satır sonu \n silinir
 
+# f.tell() imleç nerede?
+
+#offset → kaç byte ilerle/geri git
+#whence → referans noktası
+#0 → dosya başı (default)
+#1 → mevcut konum
+#2 → dosya sonu
 
 
 #Örnek:
