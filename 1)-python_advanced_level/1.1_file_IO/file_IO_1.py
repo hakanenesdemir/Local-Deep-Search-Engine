@@ -80,6 +80,13 @@
 #1 → mevcut konum
 #2 → dosya sonu
 
+# Bu bir hata ayıklama ile beraber çalışan kod.
+# try:
+#     with open("olmayan.txt", "r", encoding="utf-8") as f:
+#         icerik = f.read()
+# except FileNotFoundError:
+#     print("Dosya bulunamadı!")
+
 
 #Örnek:
 # file open

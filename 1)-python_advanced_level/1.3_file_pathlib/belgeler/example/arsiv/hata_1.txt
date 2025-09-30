@@ -1,0 +1,52 @@
+2025-10-01 09:00:01 INFO - Kullanıcı 'ahmet' anasayfaya erişti.
+2025-10-01 09:00:05 DEBUG - API çağrısı başarılı. Yanıt süresi: 15ms.
+2025-10-01 09:00:10 HATA - Veritabanı bağlantısı kesildi. Yeniden bağlanma denemesi başlatılıyor.
+2025-10-01 09:00:15 INFO - Ürün listesi önbellekten yüklendi.
+2025-10-01 09:00:22 WARNING - Yedekleme servisi gecikmeli çalışıyor.
+2025-10-01 09:00:25 INFO - Form verileri başarıyla işlendi.
+2025-10-01 09:00:30 HATA - Kötü amaçlı yazılım tespiti: Dosya adı: system.dll.
+2025-10-01 09:00:35 DEBUG - Kayıt işlemi tamamlandı. Yeni ID: 1001.
+2025-10-01 09:00:40 INFO - E-posta bildirim sırası güncellendi.
+2025-10-01 09:00:45 HATA - Bellek sızıntısı tespit edildi. Sistem yükü %95.
+2025-10-01 09:00:50 DEBUG - Arama indeksi başarıyla güncellendi.
+2025-10-01 09:00:55 INFO - Kullanıcı 'mehmet' yeni bir sipariş oluşturdu.
+2025-10-01 09:01:00 HATA - Dış API çağrısı zaman aşımına uğradı. Endpoint: /payment.
+2025-10-01 09:01:05 INFO - Analiz raporu başarıyla oluşturuldu.
+2025-10-01 09:01:10 WARNING - Geçersiz oturum belirteci denemesi tespit edildi.
+2025-10-01 09:01:15 DEBUG - Günlükler başarıyla sıkıştırıldı.
+2025-10-01 09:01:20 HATA - İşlem kimliği 456 için geçersiz parametre alındı.
+2025-10-01 09:01:25 INFO - Ayarlar güncellendi: Tema Koyu.
+2025-10-01 09:01:30 HATA - Disk alanı kritik seviyede: %98 dolu.
+2025-10-01 09:01:35 DEBUG - Veri okuma işlemi 200 satır getirdi.
+2025-10-01 09:01:40 INFO - Sunucu yeniden başlatılıyor...
+2025-10-01 09:01:45 HATA - Önbellek sunucusu (Redis) erişilemez durumda.
+2025-10-01 09:01:50 INFO - Oturum kapatıldı. Kullanıcı: 'ali_veli'.
+2025-10-01 09:01:55 WARNING - Eski dosya formatı kullanılıyor. Güncelleme önerilir.
+2025-10-02 09:02:00 HATA - Kullanıcı 'deneme' için hesap kilitleme hatası.
+2025-10-02 09:02:05 INFO - Yeni bir yönetici paneline giriş yapıldı.
+2025-10-02 09:02:10 DEBUG - İş parçacığı havuzu boyutu ayarlandı.
+2025-10-02 09:02:15 HATA - Veritabanı sorgusu başarısız: Tablo bulunamadı.
+2025-10-02 09:02:20 INFO - Sistem izleme başlatıldı.
+2025-10-02 09:02:25 WARNING - Lisans süresi 30 gün içinde dolacak.
+2025-10-02 09:02:30 HATA - Geriye dönük uyumluluk hatası. Sürüm 1.0 desteklenmiyor.
+2025-10-02 09:02:35 INFO - Yeni kullanıcı kaydı tamamlandı: 'ayse'.
+2025-10-02 09:02:40 DEBUG - Bellek kullanımı optimizasyonu yapılıyor.
+2025-10-02 09:02:45 HATA - Ağ bağlantısı koptu. Bağlantı 404.
+2025-10-02 09:02:50 INFO - İstatistikler güncellendi.
+2025-10-02 09:02:55 WARNING - Zaman damgası formatı geçersiz. Varsayılan kullanılıyor.
+2025-10-03 09:03:00 HATA - İşlem kimliği 789 için yetkilendirme başarısız.
+2025-10-03 09:03:05 INFO - Rapor oluşturucu başarıyla çalıştırıldı.
+2025-10-03 09:03:10 DEBUG - Ön yükleme modülleri yüklendi.
+2025-10-03 09:03:15 HATA - Dosya sistemi bozuk. Log kaydı yapılamıyor.
+2025-10-03 09:03:20 INFO - Sunucu ayarları yedeklendi.
+2025-10-03 09:03:25 WARNING - CPU kullanımı yüksek: %90.
+2025-10-03 09:03:30 HATA - Sertifika doğrulama hatası. SSL bağlantısı başarısız.
+2025-10-03 09:03:35 INFO - Kullanıcı listesi senkronize edildi.
+2025-10-03 09:03:40 DEBUG - İşlemci kuyruğu boşaltıldı.
+2025-10-03 09:03:45 HATA - Kaynak bulunamadı: /api/v2/veri.
+2025-10-03 09:03:50 INFO - Kullanıcı tercihi kaydedildi.
+2025-10-03 09:03:55 HATA - Kritik bir sistem servisi aniden durdu.
+2025-10-04 09:04:00 WARNING - Yedekleme sunucusu cevap vermiyor.
+2025-10-04 09:04:05 INFO - Yeni bir oturum başlatıldı.
+2025-10-04 09:04:10 HATA - Dosya yolu çok uzun. Maksimum karakter sınırı aşıldı.
+2025-10-04 09:04:15 INFO - İşlem tamamlandı.

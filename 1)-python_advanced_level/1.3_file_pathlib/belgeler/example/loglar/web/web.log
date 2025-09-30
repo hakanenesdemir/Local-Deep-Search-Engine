@@ -1,0 +1,5 @@
+127.0.0.1 - user1 [30/Sep/2025:10:05:01 +0300] "GET /index.html HTTP/1.1" 200 1547 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+85.20.10.33 - - [30/Sep/2025:10:05:05 +0300] "GET /images/logo.png HTTP/1.1" 200 4500 "http://mysite.com/index.html" "Chrome/117.0.0.0"
+193.10.5.15 - bot [30/Sep/2025:10:05:15 +0300] "GET /admin/login.php HTTP/1.1" 404 350 "-" "Googlebot/2.1 (+http://www.google.com/bot.html)"
+127.0.0.1 - user1 [30/Sep/2025:10:05:22 +0300] "POST /api/data HTTP/1.1" 500 20 "-" "Mozilla/5.0"
+85.20.10.33 - - [30/Sep/2025:10:05:30 +0300] "GET /contact/form.js HTTP/1.1" 200 890 "http://mysite.com/contact.html" "Chrome/117.0.0.0"

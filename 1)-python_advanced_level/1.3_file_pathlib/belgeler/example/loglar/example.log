@@ -1,0 +1,8 @@
+Sep 30 14:35:01 webhost kernel: [54321.123] usb 1-1: new high-speed USB device number 3 using xhci_hcd
+Sep 30 14:35:05 webhost systemd[1]: Started Apache HTTP Server.
+Sep 30 14:35:10 webhost CRON[1234]: (root) CMD (command -v dgcron >/dev/null && dgcron)
+Sep 30 14:36:00 webhost sshd[5678]: Failed password for invalid user userxyz from 203.0.113.1 port 51234 ssh2
+Sep 30 14:36:01 webhost systemd[1]: Stopping MySQL Database Server.
+Sep 30 14:37:05 webhost kernel: [54400.999] eth0: link down
+Sep 30 14:37:06 webhost kernel: [54400.999] eth0: link down
+Sep 30 14:37:07 webhost kernel: [54400.999] eth0: link down

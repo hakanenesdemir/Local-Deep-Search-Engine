@@ -1,0 +1,35 @@
+hata_1.txt: 2025-10-01 09:00:10 HATA - Veritabanı bağlantısı kesildi. Yeniden bağlanma denemesi başlatılıyor.
+hata_1.txt: 2025-10-01 09:00:30 HATA - Kötü amaçlı yazılım tespiti: Dosya adı: system.dll.
+hata_1.txt: 2025-10-01 09:00:45 HATA - Bellek sızıntısı tespit edildi. Sistem yükü %95.
+hata_1.txt: 2025-10-01 09:01:00 HATA - Dış API çağrısı zaman aşımına uğradı. Endpoint: /payment.
+hata_1.txt: 2025-10-01 09:01:20 HATA - İşlem kimliği 456 için geçersiz parametre alındı.
+hata_1.txt: 2025-10-01 09:01:30 HATA - Disk alanı kritik seviyede: %98 dolu.
+hata_1.txt: 2025-10-01 09:01:45 HATA - Önbellek sunucusu (Redis) erişilemez durumda.
+hata_1.txt: 2025-10-02 09:02:00 HATA - Kullanıcı 'deneme' için hesap kilitleme hatası.
+hata_1.txt: 2025-10-02 09:02:15 HATA - Veritabanı sorgusu başarısız: Tablo bulunamadı.
+hata_1.txt: 2025-10-02 09:02:30 HATA - Geriye dönük uyumluluk hatası. Sürüm 1.0 desteklenmiyor.
+hata_1.txt: 2025-10-02 09:02:45 HATA - Ağ bağlantısı koptu. Bağlantı 404.
+hata_1.txt: 2025-10-03 09:03:00 HATA - İşlem kimliği 789 için yetkilendirme başarısız.
+hata_1.txt: 2025-10-03 09:03:15 HATA - Dosya sistemi bozuk. Log kaydı yapılamıyor.
+hata_1.txt: 2025-10-03 09:03:30 HATA - Sertifika doğrulama hatası. SSL bağlantısı başarısız.
+hata_1.txt: 2025-10-03 09:03:45 HATA - Kaynak bulunamadı: /api/v2/veri.
+hata_1.txt: 2025-10-03 09:03:55 HATA - Kritik bir sistem servisi aniden durdu.
+hata_1.txt: 2025-10-04 09:04:10 HATA - Dosya yolu çok uzun. Maksimum karakter sınırı aşıldı.
+hata_2.txt: 2025-10-05T11:00:10Z [HATA] [Inventory] - Ürün Stokta Yok: SKU-456. Sipariş işlenemedi.
+hata_2.txt: 2025-10-05T11:00:25Z [HATA] [Database] - SQL bağlantısı koptu. Bağlantı adresi: Primary_DB.
+hata_2.txt: 2025-10-05T11:00:40Z [HATA] [Payment] - Harici ödeme ağ geçidi 503 Servis Hatası döndürdü.
+hata_2.txt: 2025-10-05T11:00:50Z [HATA] [LogService] - Log yazma tamponu doldu. Bazı kayıtlar kayboldu.
+hata_2.txt: 2025-10-05T11:01:00Z [HATA] [Auth] - Kullanıcı 'unknown' için 5 başarısız giriş denemesi. Hesap kilitleniyor.
+hata_2.txt: 2025-10-05T11:01:15Z [HATA] [Network] - DNS çözümlemesi başarısız oldu: partner-api.com.
+hata_2.txt: 2025-10-05T11:01:30Z [HATA] [Processor] - Kritik bir işlem sırasında NULL referans hatası.
+hata_2.txt: 2025-10-05T11:01:40Z [HATA] [Config] - Yapılandırma dosyası (config.yaml) okunamadı. Varsayılan ayarlar kullanılıyor.
+hata_2.txt: 2025-10-05T11:01:55Z [HATA] [Inventory] - Stok eksik: SKU-999 için eksi stok tespit edildi. Düzeltme yapılıyor.
+hata_2.txt: 2025-10-05T11:02:10Z [HATA] [Payment] - Müşteri (ID: 501) için önceki işlem iptal edildi. HATA kodu: 400.
+hata_2.txt: 2025-10-05T11:02:20Z [HATA] [Database] - Bağlantı havuzu tükenmiş. Yeni bağlantı oluşturulamıyor.
+hata_2.txt: 2025-10-05T11:02:35Z [HATA] [Processor] - Kritik İşlem Kaynakları Tükendi. İşlemler durduruluyor.
+hata_2.txt: 2025-10-05T11:02:50Z [HATA] [Network] - Firewall (Güvenlik Duvarı) engeli. IP adresi: 10.10.10.10.
+hata_2.txt: 2025-10-05T11:03:00Z [HATA] [Delivery] - Kargo etiketi çıktısı alınırken donanım HATA'sı.
+hata_2.txt: 2025-10-05T11:03:15Z [HATA] [API] - Partner API'den gelen veri formatı geçersiz.
+hata_2.txt: 2025-10-05T11:03:30Z [HATA] [Storage] - Bulut depolama servisi kota aşıldı. Dosya yüklenemiyor.
+hata_2.txt: 2025-10-05T11:03:40Z [HATA] [Payment] - Kullanıcı (ID: 503) için ödeme denemesi yetersiz bakiye nedeniyle reddedildi.
+hata_2.txt: 2025-10-05T11:03:55Z [HATA] [Inventory] - Stok kilidi (lock) serbest bırakılamadı. Manuel müdahale gerekli.

@@ -1,0 +1,49 @@
+2025-10-05T11:00:01Z [INFO] [Frontend] - Kullanıcı (ID: 501) sepetini görüntüledi.
+2025-10-05T11:00:05Z [INFO] [Payment] - Ödeme başlatıldı. Sipariş ID: #88345.
+2025-10-05T11:00:10Z [HATA] [Inventory] - Ürün Stokta Yok: SKU-456. Sipariş işlenemedi.
+2025-10-05T11:00:15Z [WARN] [Delivery] - Teslimat adresi için posta kodu doğrulaması başarısız.
+2025-10-05T11:00:20Z [INFO] [Search] - 'Kırmızı elbise' için arama yapıldı. 12 sonuç bulundu.
+2025-10-05T11:00:25Z [HATA] [Database] - SQL bağlantısı koptu. Bağlantı adresi: Primary_DB.
+2025-10-05T11:00:30Z [DEBUG] [Cache] - Fiyat verisi 5 saniye süreyle önbelleğe alındı.
+2025-10-05T11:00:35Z [INFO] [Auth] - Kullanıcı 'jane_doe' oturum açtı.
+2025-10-05T11:00:40Z [HATA] [Payment] - Harici ödeme ağ geçidi 503 Servis Hatası döndürdü.
+2025-10-05T11:00:45Z [INFO] [Report] - Günlük satış raporu oluşturma görevi kuyruğa eklendi.
+2025-10-05T11:00:50Z [HATA] [LogService] - Log yazma tamponu doldu. Bazı kayıtlar kayboldu.
+2025-10-05T11:00:55Z [INFO] [Inventory] - SKU-101 ürünü için stok güncellendi. Yeni miktar: 55.
+2025-10-05T11:01:00Z [HATA] [Auth] - Kullanıcı 'unknown' için 5 başarısız giriş denemesi. Hesap kilitleniyor.
+2025-10-05T11:01:05Z [DEBUG] [Thread] - Yeni bir iş parçacığı başarıyla başlatıldı.
+2025-10-05T11:01:10Z [INFO] [Marketing] - E-posta kampanya servisi başlatılıyor.
+2025-10-05T11:01:15Z [HATA] [Network] - DNS çözümlemesi başarısız oldu: partner-api.com.
+2025-10-05T11:01:20Z [INFO] [Payment] - Sipariş #88346 için ödeme onaylandı.
+2025-10-05T11:01:25Z [WARN] [DB] - Yedekleme veritabanı (Replica) ile senkronizasyon hatası.
+2025-10-05T11:01:30Z [HATA] [Processor] - Kritik bir işlem sırasında NULL referans hatası.
+2025-10-05T11:01:35Z [INFO] [Delivery] - Gönderi etiketi oluşturuldu. Takip No: TR12345.
+2025-10-05T11:01:40Z [HATA] [Config] - Yapılandırma dosyası (config.yaml) okunamadı. Varsayılan ayarlar kullanılıyor.
+2025-10-05T11:01:45Z [INFO] [Admin] - Yönetici 'sue' sistem ayarlarını değiştirdi.
+2025-10-05T11:01:50Z [DEBUG] [Logger] - Log seviyesi INFO olarak ayarlandı.
+2025-10-05T11:01:55Z [HATA] [Inventory] - Stok eksik: SKU-999 için eksi stok tespit edildi. Düzeltme yapılıyor.
+2025-10-05T11:02:00Z [INFO] [Frontend] - Mobil uygulamadan giriş denemesi.
+2025-10-05T11:02:05Z [WARN] [Auth] - Şifre değiştirme bağlantısı 1 saat içinde sona erecek.
+2025-10-05T11:02:10Z [HATA] [Payment] - Müşteri (ID: 501) için önceki işlem iptal edildi. HATA kodu: 400.
+2025-10-05T11:02:15Z [INFO] [Delivery] - Sipariş #88347 kargoya verildi.
+2025-10-05T11:02:20Z [HATA] [Database] - Bağlantı havuzu tükenmiş. Yeni bağlantı oluşturulamıyor.
+2025-10-05T11:02:25Z [DEBUG] [Cache] - Başarısız anahtar erişimi: session_token_expired.
+2025-10-05T11:02:30Z [INFO] [Auth] - Kullanıcı (ID: 502) yeni bir şifre talep etti.
+2025-10-05T11:02:35Z [HATA] [Processor] - Kritik İşlem Kaynakları Tükendi. İşlemler durduruluyor.
+2025-10-05T11:02:40Z [WARN] [Report] - Aylık rapor oluşturma 5 dakikadan uzun sürdü. Performans düşüşü.
+2025-10-05T11:02:45Z [INFO] [Frontend] - Ana sayfa yükleme süresi: 450ms.
+2025-10-05T11:02:50Z [HATA] [Network] - Firewall (Güvenlik Duvarı) engeli. IP adresi: 10.10.10.10.
+2025-10-05T11:02:55Z [INFO] [Inventory] - Yeni bir ürün (SKU-112) eklendi.
+2025-10-05T11:03:00Z [HATA] [Delivery] - Kargo etiketi çıktısı alınırken donanım HATA'sı.
+2025-10-05T11:03:05Z [DEBUG] [System] - Bellek temizleme rutini başlatıldı.
+2025-10-05T11:03:10Z [INFO] [Payment] - Ödeme iadesi başarıyla tamamlandı. İşlem ID: T456.
+2025-10-05T11:03:15Z [HATA] [API] - Partner API'den gelen veri formatı geçersiz.
+2025-10-05T11:03:20Z [INFO] [Auth] - Admin paneline başarılı giriş.
+2025-10-05T11:03:25Z [WARN] [Config] - Tarihi bir ayar değeri kullanılıyor: 'legacy_mode'.
+2025-10-05T11:03:30Z [HATA] [Storage] - Bulut depolama servisi kota aşıldı. Dosya yüklenemiyor.
+2025-10-05T11:03:35Z [INFO] [Search] - Arama motoru performansı normal seviyede.
+2025-10-05T11:03:40Z [HATA] [Payment] - Kullanıcı (ID: 503) için ödeme denemesi yetersiz bakiye nedeniyle reddedildi.
+2025-10-05T11:03:45Z [DEBUG] [System] - CPU yükü %20'nin altına düştü.
+2025-10-05T11:03:50Z [INFO] [Marketing] - Kampanya mesajı 1000 kullanıcıya gönderildi.
+2025-10-05T11:03:55Z [HATA] [Inventory] - Stok kilidi (lock) serbest bırakılamadı. Manuel müdahale gerekli.
+2025-10-05T11:04:00Z [INFO] [System] - Günlük bakım tamamlandı.

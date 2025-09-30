@@ -1,0 +1,6 @@
+[2025-09-30 14:30:05.123] INFO [AuthService] - Kullanıcı 'ahmet' başarıyla giriş yaptı. SessionID: 1A2B3C
+[2025-09-30 14:30:10.456] DEBUG [DatabaseConn] - SQL Sorgusu Çalıştırılıyor: SELECT * FROM products WHERE id = 15
+[2025-09-30 14:30:11.789] WARNING [CacheManager] - Önbellek doldu. En eski 100 girdi siliniyor.
+[2025-09-30 14:30:15.990] ERROR [PaymentGateway] - Ödeme işlemi başarısız. Hata kodu: 403. Müşteri: 12345
+[2025-09-30 14:30:20.001] INFO [ReportGenerator] - Aylık rapor oluşturma işlemi başlatıldı.
+[2025-09-30 14:30:21.050] ERROR [DatabaseConn] - Bağlantı zaman aşımına uğradı. Veritabanı yanıt vermiyor.
