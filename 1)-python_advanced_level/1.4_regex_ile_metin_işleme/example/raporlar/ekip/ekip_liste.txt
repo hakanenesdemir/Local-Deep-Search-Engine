@@ -1,0 +1,4 @@
+tasarımcı:deniz.aksoy@ajans.com
+yazılımcı:ali.veli@teknoloji.net
+proje_yöneticisi:cem.demir@yonetim.com
+muhasebe:finans@muhasebe.org

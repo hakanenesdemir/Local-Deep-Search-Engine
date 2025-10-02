@@ -1,0 +1,6 @@
+10.0.0.5 - [02/Oct/2025:10:00:45 +0300] "POST /api/v1/orders" 400 150
+2025-10-02 10:00:45,912 INFO  [APIHandler] Received POST request from 10.0.0.5
+2025-10-02 10:00:45,915 DEBUG [Validator] Validating incoming JSON payload.
+2025-10-02 10:00:45,916 [ERROR] ValidationException: Required field 'item_quantity' is missing or has a non-numeric value. Payload: {"product_id": "P55", "user_id": 99}
+2025-10-02 10:00:45,916 [ERROR] [OrderProcessor] Could not process order. Message: Invalid request data received.
+2025-10-02 10:00:45,917 INFO  [APIHandler] Responded with HTTP 400 Bad Request.

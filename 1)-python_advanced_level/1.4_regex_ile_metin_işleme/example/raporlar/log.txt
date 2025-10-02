@@ -1,0 +1,11 @@
+# Proje Kodu: ALPHA-2025
+# Rapor Tarihi: 01.10.2025 14:30
+
+[KULLANICI_LOG] Kullanıcı 'CanYilmaz' giriş yaptı. İletişim e-postası: can.yilmaz@sirketadi.com
+[HATIRLATMA] Ayşe Kaya'nın son fatura kontrolü yapıldı. Kendisiyle ivedi görüşülmeli. Dahili telefon: 555-1234
+[SİSTEM_UYARI] Hata kodu 404. Teknik destek talebi oluşturuldu. Lütfen mehmet.oz@akademi.edu.tr adresine bilgilendirme maili atınız.
+[GÖREV] Tasarım revizyonları için Deniz Aksoy'a ulaşın. Mail adresi: deniz.aksoy@ajans.com
+
+[VERİ_KAYDI] Yeni kayıtta e-posta alanı boş bırakılmış. Kullanıcı Adı: misafir_kullanici
+[YÖNETİCİ_BİLGİ] Cem Demir ile ilgili tüm acil durumlar için cem.demir@yonetim.com adresini kullanın.
+[NOT] Eski müşteri iletişim bilgisi: info@eski-proje.org

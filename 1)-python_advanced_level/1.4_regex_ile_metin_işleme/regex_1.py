@@ -61,19 +61,20 @@ emails=re.findall(r"[\w\d]+@[\w\d]+\.[\w]+",metin_5)
 # emails=re.findall(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}",metin)
 print(emails)
 
-# |    Sembol     |       Anlamı                  |
-# |      .        | Herhangi bir karakter         |                  
-# |      ^        | Başlangıç                     |
-# |      $        | Bitiş                         |
-# |      \d       | Rakam(0-9)                    |
-# |      \D       | Rakam Olmayan                 |
-# |      \w       | Harfler,rakamlar,altçizgi(_)  |
-# |      \s       | Boşluk karakteri              |
-# |      +        | 1 veya daha fazla tekrar      |
-# |      *        | 0 veya daha fazla tekrar      |
-# |      ?        | 0 veya 1 tekrar               |
-# |     {n}       | n kere tekrar                 |
-# |    {n,m}      | n ile m arası tekrar          |
+# |    Sembol     |       Anlamı                                |
+# |      .        | Herhangi bir karakter                       |                  
+# |      ^        | Başlangıç                                   |
+# |      $        | Bitiş                                       |
+# |      \d       | Rakam(0-9)                                  |
+# |      \D       | Rakam Olmayan                               |
+# |      \w       | Harfler,rakamlar,altçizgi(_)                |
+# |      \s       | Boşluk karakteri                            |
+# |      \b       | Bir kelimenin başı veya sonu ile eşleşir.   |
+# |      +        | 1 veya daha fazla tekrar                    |
+# |      *        | 0 veya daha fazla tekrar                    |
+# |      ?        | 0 veya 1 tekrar                             |
+# |     {n}       | n kere tekrar                               |
+# |    {n,m}      | n ile m arası tekrar                        |
 
 
 

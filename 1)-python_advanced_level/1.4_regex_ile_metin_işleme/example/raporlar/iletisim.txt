@@ -1,0 +1,5 @@
+Ayşe Kaya,ayse.kaya@freelancer.net
+Can Yılmaz,can.yilmaz@sirketadi.com
+Mehmet Öz,mehmet.oz@akademi.edu.tr
+Deneme Hesabı,denemehesabi@gmail.com
+Proje Bilgi,info@projeadi.org

@@ -1,0 +1,6 @@
+2025-10-02 11:35:01,452 INFO  [PaymentService] Processing request for UserID: 12345
+2025-10-02 11:35:01,890 DEBUG [DatabaseConnector] Attempting to connect to DB at 192.168.1.10:5432
+2025-10-02 11:35:02,995 WARN  [DatabaseConnector] Connection attempt timed out. Retrying...
+2025-10-02 11:35:05,010 [ERROR] [DatabaseConnector] Failed to establish connection to database 'app_db'. Reason: Authentication failed for user 'appuser'.
+2025-10-02 11:35:05,011 [ERROR] [PaymentService] Transaction failed for UserID: 12345. StackTrace: com.app.db.ConnectionException: Auth failure...
+2025-10-02 11:35:05,012 INFO  [PaymentService] Request handling complete for UserID: 12345. Status: FAILED
