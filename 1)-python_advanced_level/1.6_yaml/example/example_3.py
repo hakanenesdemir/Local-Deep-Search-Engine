@@ -1,0 +1,1 @@
+# config/ klasöründe YAML formatında ayar dosyaları var (ör. db.yaml, server.yaml). Bunların hepsini okuyup tek bir config.json dosyası oluştur.

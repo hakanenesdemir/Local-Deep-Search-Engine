@@ -1,0 +1,59 @@
+
+#Bu yaml dosyası python içerisine yüklenince otomatik yorum satırları
+
+# Çapa tanımlama (common_settings'e bir isim verdik)
+common_settings: &varsayilan_ayarlar
+  timeout: 60
+  log_level: DEBUG
+
+# Takma ad kullanarak ayarları kopyalama
+gelistirici_sunucu:
+  <<: *varsayilan_ayarlar  # Tüm blok buraya kopyalanır
+  port: 8080
+  hiz: dusuk
+
+test_sunucusu:
+  <<: *varsayilan_ayarlar  # Tüm blok buraya da kopyalanır
+  port: 80
+  hiz: yuksek
+  true: 5
+
+# Veri Tiplerini Belirleme (Tags)
+# Python'da dize (string) olarak okunur
+versiyon_no: !!str 2.0
+
+# Python'da tarih objesi olarak okunur (yaml kütüphanesi otomatik dönüştürür)
+baslangic_tarihi: !!timestamp 2025-10-01
+
+# JSON'da yalnızca dizeler (string) anahtar olabilirken,
+# YAML'de sayılar, boole değerleri ve hatta kompleks nesneler bile bir sözlüğün anahtarı olabilir.
+# Sayıları anahtar olarak kullanma
+notlar:
+  10: Mukemmel
+  7: Iyi
+
+# Boole değerini anahtar olarak kullanma
+durum:
+  True: Basarili
+  False: Hatali
+
+# yaml dosyasında birinci ikinci diye ayıran şey --- 'dir
+--- 
+a: 1
+---
+b: 2
+
+mesaj_katlama: >
+  Bu, birden fazla
+  satırda yazılmış 
+  uzun bir metindir. 
+  Ancak yüklenirken tek
+  bir dizeye katlanır.
+
+
+komut_literal: |
+  #!/bin/bash
+  echo "Sunucu durumu:"
+  date
+
+# "#!/bin/bash\necho \"Sunucu durumu:\"\ndate\n"

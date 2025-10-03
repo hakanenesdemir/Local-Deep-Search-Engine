@@ -1,0 +1,1 @@
+# ayarlar.yaml dosyasını oku ve ekrana Python sözlüğü olarak yazdır.

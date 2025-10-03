@@ -1,0 +1,1 @@
+# Bir klasördeki tüm .yaml dosyalarını oku, hepsini tek bir büyük sözlükte birleştir ve toplam.yaml dosyasına kaydet.

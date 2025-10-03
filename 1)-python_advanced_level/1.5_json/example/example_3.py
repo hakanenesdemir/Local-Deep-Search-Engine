@@ -1,0 +1,1 @@
+# belgeler/ klasöründeki tüm .json dosyalarını tara ve içindeki "ad" alanlarını ekrana yazdır.

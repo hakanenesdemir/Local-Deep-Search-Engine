@@ -1,0 +1,1 @@
+# Bir Python sözlüğünü (dict) JSON formatında kisi.json dosyasına kaydet ve geri yükle.

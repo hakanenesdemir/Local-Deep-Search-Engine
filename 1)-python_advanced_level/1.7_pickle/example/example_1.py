@@ -1,0 +1,1 @@
+# data.pkl dosyasına bir liste ([1,2,3,4,5]) kaydet, sonra geri yükle.

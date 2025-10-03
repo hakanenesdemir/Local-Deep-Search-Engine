@@ -1,0 +1,1 @@
+# raporlar/ klasöründeki tüm .json dosyalarını tara. İçinde "status": "error" olan kayıtları hata_raporu.json dosyasına ekle.

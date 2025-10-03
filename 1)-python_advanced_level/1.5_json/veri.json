@@ -1,0 +1,10 @@
+{
+    "isim": "Python",
+    "yıl": 1991,
+    "versiyon": 3.1,
+    "aktif": true,
+    "etiketler": [
+        "oop",
+        "scripting"
+    ]
+}

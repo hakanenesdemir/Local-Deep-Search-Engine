@@ -1,0 +1,1 @@
+# JSON dosyasını okuduktan sonra içindeki "yas" alanını 1 artırıp tekrar kaydet.
